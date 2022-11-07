@@ -37,6 +37,7 @@ github.com/goccy/go-json/internal/errors
 github.com/goccy/go-json/internal/runtime
 # github.com/golang/mock v1.6.0
 ## explicit; go 1.11
+github.com/golang/mock/gomock
 github.com/golang/mock/mockgen/model
 # github.com/hashicorp/hcl v1.0.0
 ## explicit
@@ -123,17 +124,19 @@ github.com/subosito/gotenv
 # github.com/ugorji/go/codec v1.2.7
 ## explicit; go 1.11
 github.com/ugorji/go/codec
-# golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
+# golang.org/x/crypto v0.1.0
 ## explicit; go 1.17
 golang.org/x/crypto/sha3
-# golang.org/x/net v0.0.0-20221014081412-f15817d10f9b
+# golang.org/x/mod v0.6.0
+## explicit; go 1.17
+# golang.org/x/net v0.1.0
 ## explicit; go 1.17
 golang.org/x/net/http/httpguts
 golang.org/x/net/http2
 golang.org/x/net/http2/h2c
 golang.org/x/net/http2/hpack
 golang.org/x/net/idna
-# golang.org/x/sys v0.0.0-20220908164124-27713097b956
+# golang.org/x/sys v0.1.0
 ## explicit; go 1.17
 golang.org/x/sys/cpu
 golang.org/x/sys/internal/unsafeheader
@@ -150,6 +153,8 @@ golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
+# golang.org/x/tools v0.2.0
+## explicit; go 1.18
 # google.golang.org/protobuf v1.28.1
 ## explicit; go 1.11
 google.golang.org/protobuf/encoding/protowire

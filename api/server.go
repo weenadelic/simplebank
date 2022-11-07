@@ -2,7 +2,6 @@ package api
 
 import (
 	"github.com/gin-gonic/gin"
-	_ "github.com/golang/mock/mockgen/model"
 	db "github.com/weenadelic/simplebank/db/sqlc"
 )
 
